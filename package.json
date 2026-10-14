@@ -10,6 +10,7 @@
     "url": "git+https://github.com/tomx-sh/pi-fm-bridge.git"
   },
   "type": "module",
+  "files": ["extensions"],
   "pi": {
     "extensions": ["./extensions/fm-bridge.ts"]
   },

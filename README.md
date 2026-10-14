@@ -20,7 +20,8 @@ runs commands and edits code, and answers directly when no tool is needed.
 ## Install
 
 ```bash
-pi install git:github.com/tomx-sh/pi-fm-bridge
+pi install git:github.com/tomx-sh/pi-fm-bridge          # follows main
+pi install git:github.com/tomx-sh/pi-fm-bridge@v0.1.0   # pinned to a release
 ```
 
 Or try it for one session with `pi -e git:github.com/tomx-sh/pi-fm-bridge`.
