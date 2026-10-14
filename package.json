@@ -1,0 +1,19 @@
+{
+  "name": "pi-fm-bridge",
+  "version": "0.1.0",
+  "description": "Apple's on-device Foundation Model as a pi provider, with native tool calling, through fm-bridge",
+  "keywords": ["pi-package", "apple", "foundation-models", "on-device", "provider"],
+  "license": "MIT",
+  "author": "Thomas (https://github.com/tomx-sh)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomx-sh/pi-fm-bridge.git"
+  },
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/fm-bridge.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
